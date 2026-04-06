@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp scan directories
+/tmp/security-scan-*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code internal
+Plans/
+${HOME}/
