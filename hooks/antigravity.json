@@ -1,0 +1,21 @@
+{
+  "security-scan": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "bun ./hooks/url-hint.ts antigravity"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bun ./hooks/pre-tool.ts antigravity"
+          }
+        ]
+      }
+    ]
+  }
+}
