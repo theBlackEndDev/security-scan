@@ -1,0 +1,17 @@
+{
+  "name": "security-scan",
+  "owner": {
+    "name": "theBlackEndDev"
+  },
+  "plugins": [
+    {
+      "name": "security-scan",
+      "source": "./",
+      "description": "Scan a GitHub repository for install traps, obfuscation, credential theft, supply-chain attacks and attacks aimed at AI coding agents before you clone or run it.",
+      "author": {
+        "name": "Jason Scott"
+      }
+    }
+  ],
+  "description": "Security scanner for GitHub repositories, including attacks aimed at AI coding agents."
+}

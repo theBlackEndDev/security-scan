@@ -14,3 +14,12 @@ Thumbs.db
 # Claude Code internal
 Plans/
 ${HOME}/
+
+# Environment files — never commit secrets
+.env
+.env.*
+.envrc
+!.env.example
+!.env.sample
+!.env.template
+!.env.dist

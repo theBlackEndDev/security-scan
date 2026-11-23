@@ -1,0 +1,13 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "security-scan",
+  "displayName": "Security Scan",
+  "version": "1.0.0",
+  "description": "Scan a GitHub repository for install traps, obfuscation, credential theft, supply-chain attacks and attacks aimed at AI coding agents before you clone or run it.",
+  "author": {
+    "name": "Jason Scott"
+  },
+  "repository": "https://github.com/theBlackEndDev/security-scan",
+  "license": "MIT",
+  "keywords": ["security", "audit", "supply-chain", "github"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "security-scan",
+  "version": "1.0.0",
+  "description": "Scan GitHub repositories for security risks before you clone, install or run them.",
+  "license": "MIT",
+  "skills": "./skills/",
+  "hooks": "./hooks/codex.json"
+}
